@@ -1,0 +1,43 @@
+page-recipe{
+    #recipe-infos{
+        text-align: center;
+        font-weight: bold;
+        padding-top: 5px;
+        font-size: 12px;
+    }
+    #card-img{
+        height: 250px;
+        width: 100%;
+    }
+    .recipe-span{
+       font-family:cursive;
+       font-size: 13px;
+       color: color($colors,dark); 
+    }
+
+    .recipe-infos-icon{
+        color: color($colors,primary); 
+    }
+
+    #title-recipe{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 16px;
+    }
+
+
+    ion-segment-button{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}

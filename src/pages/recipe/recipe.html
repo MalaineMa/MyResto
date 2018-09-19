@@ -1,0 +1,48 @@
+<ion-header>
+        <ion-navbar>
+          <button ion-button menuToggle >
+            <ion-icon name="menu"><span style="padding-left: 100px;font-family:Georgia, 'Times New Roman', Times, serif">RECIPE</span> </ion-icon>
+          </button>
+          <ion-title></ion-title>
+          <ion-buttons end>
+            <button ion-button left icon-only>
+              <ion-icon name="md-heart-outline"></ion-icon>
+            </button>
+          </ion-buttons>
+      
+      
+        </ion-navbar>
+      </ion-header>
+      
+      <ion-content padding>
+            <img id="card-img" src="assets/food-1.jpg"/>
+            <ion-row id="recipe-infos">
+                <ion-col>
+                    <ion-icon class="recipe-infos-icon" name="md-time">11 <span class="recipe-span">midi</span> </ion-icon>
+                </ion-col>
+                <ion-col>
+                        <ion-icon class="recipe-infos-icon" name="md-timer">11 <span class="recipe-span">min</span> </ion-icon>
+                    </ion-col>
+                    <ion-col>
+                            <ion-icon class="recipe-infos-icon" name="md-body">11 <span class="recipe-span">person</span>  </ion-icon>
+                        </ion-col>
+            </ion-row>
+            <h2 id="title-recipe">nomplat</h2>
+            
+            <div>
+                <ion-segment>
+                    <ion-segment-button value="ingredient">
+                          recette
+                    </ion-segment-button>
+                    <ion-segment-button value="method">
+                        etape
+                        </ion-segment-button>
+                        <ion-segment-button value="note">
+                        suggestion
+                            </ion-segment-button>
+                </ion-segment>
+            </div>
+
+
+      </ion-content>
+      
