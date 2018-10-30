@@ -7,9 +7,17 @@ import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 import { BookingPage } from '../pages/booking/booking';
 import { GalleriePage } from '../pages/gallerie/gallerie';
-import { AcceuilPage } from '../pages/acceuil/acceuil';
+//import { AcceuilPage } from '../pages/acceuil/acceuil';
 import { RecipePage } from '../pages/recipe/recipe';
+import { Recipe2Page } from '../pages/recipe2/recipe2';
+import { DessertPage } from '../pages/dessert/dessert';
+import { DrinksPage } from '../pages/Drinks/drinks';
+import { SaladsPage } from '../pages/salads/salads';
+import { DinnerPage } from '../pages/dinner/dinner';
+import { SnacksPage } from '../pages/snacks/snacks';
+
 import { SearchPage } from '../pages/search/search';
+
 
 
 @Component({
@@ -28,7 +36,7 @@ export class MyApp {
     // used for an example of ngFor and navigation
     this.pages = [
       { title: 'HOME', component: HomePage, icon :"md-home" },
-      { title: 'Accueil', component: AcceuilPage, icon :"md-apps" },
+      //{ title: 'Accueil', component: AcceuilPage, icon :"md-apps" },
       { title: 'Gallerie', component: GalleriePage, icon :"md-photos" },
       { title: 'Booking', component: BookingPage, icon :"md-bookmarks" }
     ];

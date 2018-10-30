@@ -8,4 +8,12 @@ page-booking{
         width: 140px;
        
     }
+
+    .bg-img{
+        background-image: url('../assets/stella.jpg');
+        background-repeat: no-repeat;
+        /*background-position: center;*/
+        background-size: contain;
+        padding-top: 10px
+    }
 }

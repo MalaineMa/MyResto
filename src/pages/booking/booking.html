@@ -1,4 +1,7 @@
+ 
 <ion-header>
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Notable" rel="stylesheet">
     <ion-navbar>
       <button ion-button menuToggle >
         <ion-icon name="menu"><span style="padding-left: 100px;font-family:Georgia, 'Times New Roman', Times, serif">Booking</span> </ion-icon>
@@ -10,48 +13,53 @@
     </ion-navbar>
   </ion-header>
   
-  <ion-content padding style="background-image: url(./assets/stil.jpg);background-size:cover; position:absolute; ">
-    <br>
-    <br>
-    <h2 style="text-align: center;font-size: 40px;">Book</h2>
+  <ion-content  padding class="bg-img" >
+ 
+    <h1 style="text-align: center;padding-top: 20px"><span style="color: #c59d5f;font-family: 'Great Vibes', cursive; font-size: 65px   ">Reserve</span><br> <span style="font-family: 'Notable', sans-serif;">NOW</span></h1>
     <br>
     
   
    
-  
-    <ion-list>
+ 
+    <ion-list >
 
       <ion-item class="item">
         <ion-label stacked>Nom</ion-label>
-       <ion-input type="text" class="input"></ion-input>
+       <ion-input type="text" class="input" id="itemNom" ng-model="data.Nom"></ion-input>
       </ion-item>
 
       <ion-item class="item">
         <ion-label stacked>Phone</ion-label>
-       <ion-input type="tel" class="input"></ion-input>
+       <ion-input type="tel" class="input" id="itemPhone" ng-model="data.phone"></ion-input>
       </ion-item>
 
       <ion-item class="item">
         <ion-label stacked>Email</ion-label>
-       <ion-input type="email" class="input"></ion-input>
+       <ion-input type="email" class="input" id="itemEmail" ng-model="data.email"></ion-input>
       </ion-item>
 
       <ion-item class="item">
         <ion-label stacked>Date</ion-label>
-       <ion-input type="date" class="input"></ion-input>
+       <ion-input type="date" class="input" id="itemDate" ng-model="data.Datee"></ion-input>
       </ion-item>
     
       <ion-item class="item">
         <ion-label stacked>Heure</ion-label>
-       <ion-input type="time" style="padding-left: 50px" class="input"></ion-input>
+       <ion-input type="time" style="padding-left: 50px" class="input" id="itemHeure" ng-model="data.Heure"></ion-input>
       </ion-item>
 
       <ion-item class="item">
         <ion-label stacked>Nombre Personne</ion-label> 
-       <ion-input type="number" class="input"></ion-input>
+       <ion-input type="number" class="input" id="itemNbpers" ng-model="data.Nb_personne"></ion-input>
       </ion-item>
+
+
+
 
    
     </ion-list>
+
+    <button ion-button color="secondary" round style="width: 100px;height:50px;font-size: 16px;margin-left: 120px;margin-top: 30px " ng-click="login()">Booking</button>
+
   </ion-content>
   

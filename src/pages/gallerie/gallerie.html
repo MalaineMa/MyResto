@@ -5,7 +5,7 @@
       </button>
       <ion-title></ion-title>
       <ion-buttons end>
-        <button ion-button left icon-only>
+        <button ion-button left icon-only  (click)="openSearch()">
           <ion-icon name="md-search"></ion-icon>
         </button>
       </ion-buttons>
@@ -18,38 +18,38 @@
      
     <ion-content class="card-background-page">
 
-      <ion-card>
+      <ion-card (click)="openBreakfast()">
         <img class="card-image" src="assets/rawpixel.jpg"/>
         <div class="card-title"><span class="card-titl">BREAKFAST</span></div>
         
       </ion-card>
-      <ion-card>
+      <ion-card (click)="openLunch()">
           <img class="card-image" src="assets/constance.jpg"/>
           <div class="card-title"><span class="card-titl">LUNCH</span></div>
           
         </ion-card>
-        <ion-card>
+        <ion-card (click)="openDessert()">
             <img class="card-image" src="assets/mantra.jpg"/>
             <div class="card-title"><span class="card-titl"> DESSERT</span></div>
             
           </ion-card>
-      <ion-card>
+      <ion-card (click)="openDrinks()">
           <img class="card-image" src="assets/beverage.jpg"/>
           <div class="card-title"><span class="card-titl">DRINKS</span></div>
           
         </ion-card>
-        <ion-card>
+        <ion-card (click)="openSalads()">
           <img class="card-image" src="assets/jez-timms.jpg"/>
           <div class="card-title"><span class="card-titl">SALADS</span></div>
           
         </ion-card>
     
-      <ion-card>
+      <ion-card (click)="openDinner()">
         <img class="card-image" src="assets/travis-yewell.jpg"/>
         <div class="card-title"><span class="card-titl">DINNER</span></div>
         
       </ion-card>
-      <ion-card>
+      <ion-card (click)="openSnacks()">
         <img class="card-image" src="assets/thomas.jpg"/>
         <div class="card-title"><span class="card-titl">SNACKS</span></div>
         

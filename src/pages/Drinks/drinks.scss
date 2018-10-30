@@ -1,0 +1,43 @@
+page-drinks{
+    .card-background-page{
+        ion-card{
+            position: relative;
+        }
+
+      
+
+        .card-image{
+            height: 188px;
+            display: block;
+        }
+
+        .card-acceuil-infos{
+          position: absolute;
+          top:0;
+          left: 5px;
+          list-style: none;
+          text-align: center;
+          font-size: 12px;
+          color: #fff;  
+          padding-left: 180px;
+        }
+
+        .card-acceuil-infos li{
+
+            display: inline-block;
+            position: relative;
+            background: rgba(0, 0,0, 0.33);
+            border-radius: 5px;
+            padding: 5px;
+            height: 25px;
+            line-height: 16px;
+            margin: 0 auto;
+           // padding-left: 15px;
+            //text-align: center
+            margin-left: 10px
+            
+            
+
+        }
+    }
+}
